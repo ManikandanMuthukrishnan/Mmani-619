@@ -16,8 +16,8 @@ public class Buttonclick {
 //	WebElement txtUser =driver.findElement(By.xpath("//input[@type='email']"));
 	//txtUser.sendKeys("Java@gmail");
 		
-		//WebElement pasWd=driver.findElement(By.id("pass"));
-		//pasWd.sendKeys("java");
+		WebElement pasWd=driver.findElement(By.id("pass"));
+		pasWd.sendKeys("java");
 		
 		WebElement btn =driver.findElement(By.xpath("//input[@value='2']"));
 	
